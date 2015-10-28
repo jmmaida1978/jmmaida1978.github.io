@@ -1,28 +1,15 @@
-a:link {
+a,
+a:visited {
 	color: black;
 	text-decoration: none;
 }
 a:hover {
 	color: blue;
-	text-decoration: none;
 }
 div {
-	height: 100%;
-	width: 100%;
-	min-height: 500px;
-	max-height: 1000px;
 	min-width: 500px;
 	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-}
-body {
-	border: 1px;
-	background-color: white;
-}
-@font-face {
-	font-family: 'inconsolata';
-	src: url(http://fonts.googleapis.com/css?family=Inconsolata)
+  margin: 0 auto;
 }
 h1 {
 	font-family: 'Inconsolata', courier, monospace;
@@ -30,20 +17,15 @@ h1 {
 	text-align: center;
 }
 p.one {
-	margin-left: auto;
-	margin-right: auto;
 	font-family: 'Inconsolata', courier, monospace;
 	text-align: justify;
 	font-size: 18px;
-	height: 90%;
-	width: 1000px;
 }
 p.two {
-	margin-left: auto;
-	margin-right: auto;
 	font-family: 'Inconsolata', courier, monospace;
 	text-align: center;
 	font-size: 18px;
-	height: 90%;
-	width: 90%;
+}
+img {
+  width: 100%;
 }
